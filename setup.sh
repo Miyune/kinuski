@@ -11,6 +11,7 @@ echo "Muutetaan asetuksia ja haetaan tilat"
 echo 'master: localhost'|sudo tee /etc/salt/minion
 git clone https://github.com/Miyune/kinuski.git
 cd kinuski/
+./highstate.sh
 
 echo "Desktopin muokkausta"
 setxkbmap fi
