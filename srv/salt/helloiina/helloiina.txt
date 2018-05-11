@@ -1,0 +1,1 @@
+You have now successfully modified your live USB Linux settings. More instructions on Linux and Salt on liinuksi.wordpress.com!
