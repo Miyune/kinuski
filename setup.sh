@@ -10,8 +10,8 @@ sudo apt-get -y install git salt-minion
 echo "Muutetaan asetuksia ja haetaan tilat"
 echo 'master: localhost'|sudo tee /etc/salt/minion
 git clone https://github.com/Miyune/kinuski.git
-cd kinuski
-./highstate.sh
+cd kinuski/
+bash highstate.sh
 
 echo "Desktopin muokkausta"
 setxkbmap fi
