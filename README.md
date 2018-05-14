@@ -1,5 +1,5 @@
 # kinuski
-Palvelinten hallinta -kurssin lopputyö
+Palvelinten hallinta -kurssin lopputyö, rakenne pohjautuu Tero Karvisen sirottimeen: https://github.com/terokarvinen/sirotin
 
 Buuttaa livetikulle ja avaa terminaali. Syötä seuraavat komennot:
 
