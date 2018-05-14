@@ -1,7 +1,6 @@
 #!/bin/bash
 
 echo "Konffaat livelinuxiasi kinuskilla"
-set -o verbose
 
 echo "Asennetaan Salt ja Git"
 sudo apt-get update
@@ -18,5 +17,3 @@ setxkbmap fi
 sudo timedatectl set-timezone Europe/Helsinki
 git config --global credential.helper "cache --timeout=3600"
 git config --global push.default simple
-
-echo "Valmista!"
